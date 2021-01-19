@@ -7,6 +7,8 @@
 #include "GameMapsSettings.h"
 #include "NativeGameInstance.generated.h"
 
+DECLARE_LOG_CATEGORY_EXTERN(LogGameInstance, Log, All);
+
 /**
  * 
  */
