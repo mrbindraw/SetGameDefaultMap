@@ -18,6 +18,11 @@ void UNativeGameInstance::OnStart()
 {
 	Super::OnStart();
 
+	if (GEngine)
+	{
+		GEngine->SetMaxFPS(120.0f);
+	}
+
 #if PLATFORM_WINDOWS
 	UE_LOG(LogTemp, Log, TEXT(__FUNCTION__));
 #endif
