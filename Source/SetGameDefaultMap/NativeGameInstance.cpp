@@ -7,6 +7,7 @@ void UNativeGameInstance::Init()
 {
 	Super::Init();
 
+	UGameMapsSettings::SetGameDefaultMap(TEXT("/Game/Maps/NewMap2.NewMap2"));
 }
 
 void UNativeGameInstance::OnStart()

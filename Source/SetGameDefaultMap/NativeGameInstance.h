@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "GameMapsSettings.h"
 #include "NativeGameInstance.generated.h"
 
 /**
