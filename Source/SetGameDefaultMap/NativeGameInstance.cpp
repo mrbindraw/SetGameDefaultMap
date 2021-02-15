@@ -3,7 +3,8 @@
 
 #include "NativeGameInstance.h"
 
-DEFINE_LOG_CATEGORY(LogGameInstance);
+//DEFINE_LOG_CATEGORY(LogGameInstance);
+DEFINE_LOG_CATEGORY_STATIC(LogGameInstance, Log, All);
 
 void UNativeGameInstance::Init()
 {
